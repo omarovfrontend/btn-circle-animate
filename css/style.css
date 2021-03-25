@@ -55,7 +55,6 @@ body {
     position: absolute;
     top:0;
     left: 0;
-    padding: 10px 0;
     font-size: 16px;
     color: #fff;
     pointer-events: none;
@@ -75,8 +74,11 @@ body {
     display: inline-block;
     padding: 10px 20px;
     color: #03e9f4;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
     font-size: 16px;
-    text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
